@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap 4 - podstawy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<div class="container">
+				<div class="navbar-nav mr-auto">
+					<a href="#" class="nav-link nav-item">Start</a>
+					<a href="#" class="nav-link nav-item active">Artykuły</a>
+					<a href="#" class="nav-link nav-item">Komentarze</a>
+					<a href="#" class="nav-link nav-item">Użytkownicy</a>
+					<a href="#" class="nav-link nav-item">Kontakt</a>			
+				</div>				
+		</div>
+	</nav>
+
+	<div class="jumbotron jumbotron-fluid bg-success text-white text-center">
+		<div class="container">
+			<h1 class="display-3">Wypełnij formularz</h1>
+		</div>
+	</div>
+
+	<div class="container pt-5">
+		<form action="#">
+			<div class="form-group row">
+				<label for="name" class="col-md-2 col-form-label">Imię oraz nazwisko</label>
+				<div class="col-md-10">
+					<input type="text" id="name" placeholder="Twoje imię oraz nazwisko" class="form-control">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="email" class="col-md-2 col-form-label">E-mail</label>
+				<div class="col-md-10">
+					<input type="email" id="email" placeholder="przyklad@strefakursow.pl" class="form-control">
+				</div>
+			</div>				
+			<button type="submit" class="btn btn-primary">Wyślij</button>
+		</form>	
+	</div>
+
+</body>
+</html>

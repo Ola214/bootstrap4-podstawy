@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Kurs Boostrap 4</title>
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<link rel="stylesheet" href="style/font-awesome.min.css">
+	<link rel="stylesheet" href="style/custom.css">
+</head>
+<body>
+	
+	<!-- Navbar -->
+	<nav class="navbar navbar-light navbar-expand-lg">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navContent">
+				<div class="navbar-nav">
+					<a href="#" class="nav-item nav-link active text-warning">Start</a>
+					<a href="#" class="nav-item nav-link">Cennik</a>
+					<a href="#" class="nav-item nav-link">Realizacje</a>
+					<a href="#" class="nav-item nav-link">Kontakt</a>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+
+	<!-- Top -->
+	<div class="top jumbotron text-white text-center">
+		<div class="container">
+			<h1 class="text-uppercase">Odkryj <span class="text-warning">nową jakość</span> w budownictwie</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam in nostrum?</p>
+			<button class="btn btn-warning text-white">Więcej</button>
+		</div>
+	</div>
+
+	<!-- Wprowadzenie -->
+	<section class="introduction">
+		<h2 class="text-center text-uppercase">Buduj z nami</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/ikona1.png" alt="ikona1">
+						<h3>Innowacja</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/ikona2.png" alt="ikona2">
+						<h3>Tradycja</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/ikona3.png" alt="ikona3">
+						<h3>Doświadczenie</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Opinie -->
+	<section class="testimonial">
+		<div class="container">
+			<div class="text-center testimonial-content">
+				<h2 class="text-uppercase">Opinia <span class="text-warning">klienta</span></h2>
+				<blockquote class="blockquote">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, obcaecati placeat ut assumenda accusamus sunt iste distinctio quod!</p>
+					<footer class="blockquote-footer">Jan Kowalski <cite title="Inwestor">Inwestor</cite></footer>
+				</blockquote>
+			</div>
+		</div>
+	</section>
+
+	<!-- Realizacje -->
+	<section class="portfolio">
+		<div class="portfolio-header">
+			<h2 class="text-center text-uppercase">Nasze najnowsze realizacje</h2>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<img class="rounded img-fluid" src="images/inwestycja-1-mod.jpg" alt="Inwestycja 1">
+					<span class="text-uppercase page-label text-danger">Inwestycja</span>
+					<h3 class="text-uppercase portfolio-subheading">Biurowiec</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptatem eveniet in sint a inventore dolor nulla dolorum repudiandae voluptas commodi minus porro aspernatur, itaque nemo vel quibusdam nobis reiciendis</p>
+					<button class="btn btn-danger">Czytaj więcej</button>
+				</div>
+				<div class="col-md">
+					<img class="rounded img-fluid" src="images/inwestycja-2-mod.jpg" alt="Inwestycja 2">
+					<span class="text-uppercase page-label text-danger">Inwestycja</span>
+					<h3 class="text-uppercase portfolio-subheading">Osiedle mieszkaniowe</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptatem eveniet in sint a inventore dolor nulla dolorum repudiandae voluptas commodi minus porro aspernatur, itaque nemo vel quibusdam nobis reiciendis</p>
+					<button class="btn btn-danger">Czytaj więcej</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Kontakt -->
+	<section class="write-to-us">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="write-to-us-left">
+						<span class="text-uppercase text-success page-label">Masz pytanie?</span>
+						<h2 class="text-uppercase">Skontaktuj się z nami</h2>
+						<form action="">
+							<label for="name" class="form-control-label">Imię i nazwisko</label>
+							<input type="text" id="name" class="form-control">
+							<label for="email" class="form-control-label">E-mail</label>
+							<input type="email" id="email" class="form-control">
+							<label for="msg-title" class="form-control-label">Tytuł wiadomości</label>
+							<input type="text" id="msg-title" class="form-control">
+							<label for="message" class="form-control-label">Wiadomość</label>
+							<textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+							<button class="btn btn-success">Wyślij wiadomość</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<img class="img-fluid" src="images/budowlaniec.jpg" alt="budowlaniec">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Stopka -->
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 footer-first-col">
+					<ul class="list-unstyled">
+						<li>
+							<i class="fa fa-phone" aria-hidden="true"></i>888-223-111
+						</li>
+						<li>
+							<i class="fa fa-phone" aria-hidden="true"></i>888-223-111
+						</li>
+						<li>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>Pn.-Pt. 8:00-16:00
+						</li>
+						<li>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>Pn.-Pt. 8:00-16:00
+						</li>
+						<li>
+							<i class="fa fa-envelope" aria-hidden="true"></i></i>firma@kurs.yt
+						</li>
+						<li>
+							<i class="fa fa-envelope" aria-hidden="true"></i></i>firma@kurs.yt
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4 footer-second-col">
+					<ul class="list-unstyled">
+						<li><span class="text-warning">></span>Dlaczego my</li>
+						<li><span class="text-warning">></span>Zobacz nasza najnowsze realizacje</li>
+						<li><span class="text-warning">></span>Jak dbamy o bezpieczeństwo</li>
+						<li><span class="text-warning">></span>Inowacja oraz technologie</li>
+						<li><span class="text-warning">></span>Wybrane opinie inwestorów</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<img src="images/mapa.jpg" alt="Mapa" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Prawa autorskie -->
+	<section class="text-center text-white bg-warning copyright">
+		<div class="container">
+			&copy; Copyright 2017 NAZWA FIRMY Wszelkie prawa zastrzeżone
+			<span class="mt-2 d-block">Designed by Strefa Kursów</span>
+		</div>
+	</section>
+
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

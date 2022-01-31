@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap 4 - podstawy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<div class="container">
+				<div class="navbar-nav mr-auto">
+					<a href="#" class="nav-link nav-item">Start</a>
+					<a href="#" class="nav-link nav-item active">Artykuły</a>
+					<a href="#" class="nav-link nav-item">Komentarze</a>
+					<a href="#" class="nav-link nav-item">Użytkownicy</a>
+					<a href="#" class="nav-link nav-item">Kontakt</a>			
+				</div>				
+		</div>
+	</nav>
+
+	<div class="jumbotron jumbotron-fluid bg-success text-white text-center">
+		<div class="container">
+			<h1 class="display-3">Wypełnij formularz</h1>
+		</div>
+	</div>
+
+	<div class="container pt-5">
+		<form action="#">
+			<div class="form-group">
+				<label for="name">Imię oraz nazwisko</label>
+				<input type="text" id="name" placeholder="Twoje imię oraz nazwisko" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="email">E-mail</label>
+				<input type="email" id="email" placeholder="przyklad@strefakursow.pl" class="form-control">
+				<small class="form-text text-muted">Bez obaw - nikomu nie udostępnimy twojego email</small>
+			</div>
+			<div class="form-group">
+				<label for="country">Kraj</label>
+				<select id="country" class="form-control">
+					<option value="pl">Poland</option>
+					<option value="es">Spain</option>
+					<option value="uk">United Kingdom</option>
+					<option value="us">USA</option>
+				</select>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label">
+					<input type="checkbox" value="ok" class="form-check-input">
+					Zaznacz jeśli chcesz otrzymywać informacje o promocjach
+				</label>
+			</div>
+			<div class="form-group">
+				<label class="form-check-label">Twój wiek:</label>
+				<div class="form-check">
+					<label>
+						<input type="radio" name="age" value="1" id="age1" class="form-check-input">
+						Poniżej 25
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="radio" name="age" value="2" id="age2" class="form-check-input">
+						Od 25 do 40
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="radio" name="age" value="3" id="age3" class="form-check-input">
+						Powyżej 40
+					</label>
+				</div>
+			</div>
+			<button type="submit" class="btn btn-primary">Wyslij</button>
+		</form>	
+	</div>
+
+</body>
+</html>
+<!-- 
+	form-check bazowa klasa dla kontenera
+	form-check-label klasa dla etykiety
+	form-check-input klasa dla elementu <checkbox> oraz <radio>
+ -->
